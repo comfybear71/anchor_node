@@ -1,0 +1,28 @@
+{
+  "name": "anchor_node",
+  "version": "1.0.0",
+  "description": "Turn Terra into Node",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comfybear71/anchor_node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/comfybear71/anchor_node/issues"
+  },
+  "homepage": "https://github.com/comfybear71/anchor_node#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.95.6",
+    "sqlite3": "^5.0.2"
+  }
+}
