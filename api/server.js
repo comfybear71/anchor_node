@@ -8,7 +8,7 @@ const server = express()
 server.use(express.json())
 
 server.get('/', (req, res) => {
-    res.json({message: 'I am watching'})
+    res.json({message: 'I am watching you Mason, goto BED!!!'})
 });
 
 server.use('/api/lessons', lessonsRouter)
