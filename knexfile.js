@@ -11,8 +11,10 @@ module.exports = {
     pool: {
       afterCreate: (conn, done) => {
         conn.run("PRAGMA foriegn_keys = O", done)
-      }
-    }
+      },
+    },
+  },
+  production: {
     
   }
 };
